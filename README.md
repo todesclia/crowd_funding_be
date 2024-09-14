@@ -3,10 +3,15 @@ Lisa Todesco
 
 ## Planning:
 ### Concept/Name
-{{ Include a short description of your website concept here. }}
+Champs in Making
+Empower Tomorrow's Champions: Fund Dreams for Disadvantaged Kids with Champs in Making!
+Champs in Making is a dynamic crowdfunding platform dedicated to transforming the lives of disadvantaged children. Our mission is to bridge the gap between need and opportunity by empowering individuals and organizations to raise funds for essential projects that support these young champions.
 
 ### Intended Audience/User Stories
-{{ Who are your intended audience? How will they use the website? }}
+Nonprofit Organizations: Groups dedicated to children's welfare, education, and health can use the platform to raise funds for specific projects and initiatives.
+Community Groups: Local organizations looking to address immediate needs, such as food, clothing, and educational resources for children in their area.
+Individuals: Concerned citizens or advocates who wish to launch personal campaigns to support children in need, whether through fundraising events or specific projects.
+Donors and Supporters: Individuals and businesses looking to contribute to meaningful causes and make a tangible impact on the lives of disadvantaged children.
 
 ### Front End Pages/Functionality
 - {{ A page on the front end }}
