@@ -18,4 +18,4 @@ class Pledge(models.Model):
         on_delete=models.CASCADE,
         related_name='pledges'
     )
-    supporter = models.CharField(max_length=200)
+    # supporter = models.CharField(max_length=200)

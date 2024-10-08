@@ -10,3 +10,6 @@ class PledgeSerializer(serializers.ModelSerializer):
     class Meta:
         model = apps.get_model('projects.Pledge')
         fields = '__all__'
+
+class ProjectDetailSerializer(ProjectSerializer):
+    pledges = PledgeSerializer(many=True, read_only=True)
