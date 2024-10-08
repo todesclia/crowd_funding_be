@@ -33,5 +33,9 @@ It can be helpful to keep the markdown preview open in VS Code so that you can s
 | --- | ----------- | ------- | ------- | ------------ | --------------------- | ---------------------------- |
 |     |             |         |         |              |                       |                              |
 
+As a User you're not allowed to create a new crowdfunding project unless you're logged in
+As a User you're not allowed to pledge to a project unless you're logged in
+As a User you're not allowed to modify the details of a project unless you're the one who created it
+
 ### DB Schema
 ![]( {{ ./relative/path/to/your/schema/image.png }} )
