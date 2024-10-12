@@ -27,3 +27,12 @@ class ProjectDetailSerializer(ProjectSerializer):
         instance.owner = validated_data.get('owner', instance.owner)
         instance.save()
         return instance
+
+class PledgeDetailSerializer(PledgeSerializer):
+    projects = ProjectSerializer(many=True, read_only=True)
+
+    def update(self, instance, validated_data):
+        instance.amount = validated_data.get('amount', instance.amount)
+        instance.supporter = validated_data.get('supporter', instance.supporter)
+        instance.save()
+        return instance
