@@ -66,6 +66,7 @@ class ProjectDetail(APIView):
         )
 
 class PledgeList(APIView):
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
     def get(self, request):
         pledges = Pledge.objects.all()
@@ -82,7 +83,7 @@ class PledgeList(APIView):
             )
         return Response(
             serializer.errors,
-            status=status.HTTP_400_BAD_REQUEST
+            status=status.HTTP_401_UNAUTHORIZED
         )
 
 class PledgeDetail(APIView):
